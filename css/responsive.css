@@ -1,0 +1,82 @@
+@media(max-width:1400px) {
+     
+}
+@media(max-width:1200px) {
+    
+}
+@media(max-width:992px) {
+    header{
+        padding: 8px 13px;
+    }
+    .menu{
+        width: 100%;
+        position: absolute;
+        top: 51px;
+        right: 0;
+        z-index: 1000;
+    }
+    .toggle{
+        position: absolute;
+        top: -27px;
+        right: 85px;
+    }
+    .menu .toggle i{
+        display: block;
+       
+    }
+    .menu ul{
+        display: none;
+        position: static;
+        background-color: #3e3e3e;
+        position: absolute;
+        width: 100%;
+        top: 30px;
+    }
+    .menu ul li{
+        display: block;
+       
+    }
+    .menu ul .sub-menu{
+        position: static;
+        background-color: #525252;
+    }
+    .login{
+        margin: 0 15px;
+    }
+    .comments .box-comments .text-comments{
+        position: relative;
+        background-color: #525252;
+        color: #eee;
+        width: 634px;
+        height: 290px;
+    }
+    .comments .box-comments .text-comments .user-text{
+        padding: 0 10px;
+    }
+    .comments .box-comments .text-comments .user-text p{
+        text-align: justify;
+    }
+}
+
+@media(max-width:768px) {
+    .gallery .product{
+        margin: -25px;
+     }
+  
+     .comments .box-comments .text-comments{
+        position: relative;
+        background-color: #525252;
+        color: #eee;
+        width: 349px;
+        height: 330px;
+    }
+    .comments .box-comments .text-comments .user-text{
+        padding: 0 10px;
+    }
+}
+
+@media(max-width:576px) {
+    .gallery .product{
+       margin: 0px;
+    }
+}
